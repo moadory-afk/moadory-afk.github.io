@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  body { margin: 0; background: #e8e0d8; font-family: "Pretendard", -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+  @page { size: A4; margin: 0; }
+  @media print {
+    html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { background: #fff; }
+    .moa-stack { gap: 0 !important; padding: 0 !important; }
+    .sheet { box-shadow: none !important; margin: 0 !important; break-after: page; }
+    .sheet:last-child { break-after: auto; }
+  }
+</style>
+</helmet>
+<div class="moa-stack" style="display:flex; flex-direction:column; align-items:center; gap:28px; padding:36px 0;">
+
+  <!-- ===================== PAGE 1 — COVER ===================== -->
+  <section class="sheet" data-screen-label="P1 표지" style="position:relative; width:210mm; min-height:297mm; background:#fdf7f2; box-shadow:0 12px 40px rgba(60,40,30,0.16); overflow:hidden; box-sizing:border-box; padding:26mm 22mm; display:flex; flex-direction:column;">
+    <div style="position:absolute; top:-120px; right:-110px; width:380px; height:380px; border-radius:50%; background:#fbe6e0;"></div>
+    <div style="position:absolute; top:90px; right:60px; width:120px; height:120px; border-radius:50%; background:#f6d9cf;"></div>
+    <div style="position:absolute; bottom:-90px; left:-80px; width:260px; height:260px; border-radius:50%; background:#f7ede6;"></div>
+
+    <div style="position:relative; display:flex; align-items:center; gap:12px;">
+      <div style="width:34px; height:34px; border-radius:12px; background:#e8634a; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:18px;">M</div>
+      <span style="font-size:15px; font-weight:700; letter-spacing:0.16em; color:#2c2723; text-transform:uppercase;">Moa Studio</span>
+    </div>
+
+    <div style="position:relative; margin-top:auto; margin-bottom:auto;">
+      <p style="margin:0 0 22px; font-size:14px; font-weight:700; letter-spacing:0.22em; color:#e8634a; text-transform:uppercase;">Studio Portfolio</p>
+      <h1 style="margin:0; font-size:52px; line-height:1.28; font-weight:800; color:#2c2723; letter-spacing:-0.02em; text-wrap:balance;">아이디어를<br>실제 서비스로<br><span style="color:#e8634a;">만들어 드립니다.</span></h1>
+      <p style="margin:30px 0 0; font-size:18px; line-height:1.7; color:#7d7268; max-width:430px; text-wrap:pretty;">머릿속 막연한 생각부터 매일 쓰는 앱까지 — 작은 스튜디오가 직접 만들고, 끝까지 챙깁니다.</p>
+    </div>
+
+    <div style="position:relative; display:flex; gap:14px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:150px; background:#fff; border:1px solid #efe4db; border-radius:18px; padding:16px 18px;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#b6a99d; text-transform:uppercase; margin-bottom:6px;">Email</div>
+        <div style="font-size:15px; font-weight:600; color:#2c2723;">[이메일 주소]</div>
+      </div>
+      <div style="flex:1; min-width:150px; background:#fff; border:1px solid #efe4db; border-radius:18px; padding:16px 18px;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#b6a99d; text-transform:uppercase; margin-bottom:6px;">Contact</div>
+        <div style="font-size:15px; font-weight:600; color:#2c2723;">[전화 · 카카오톡 ID]</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 2 — CAPABILITIES ===================== -->
+  <section class="sheet" data-screen-label="P2 할 수 있는 것" style="position:relative; width:210mm; min-height:297mm; background:#fdf7f2; box-shadow:0 12px 40px rgba(60,40,30,0.16); overflow:hidden; box-sizing:border-box; padding:26mm 22mm; display:flex; flex-direction:column;">
+    <p style="margin:0 0 14px; font-size:13px; font-weight:700; letter-spacing:0.2em; color:#e8634a; text-transform:uppercase;">What We Do</p>
+    <h2 style="margin:0; font-size:34px; line-height:1.32; font-weight:800; color:#2c2723; letter-spacing:-0.02em; text-wrap:balance;">이런 문제들을 해결합니다.</h2>
+    <p style="margin:14px 0 0; font-size:16px; line-height:1.7; color:#7d7268; max-width:460px;">어려운 기술 이야기는 저희 몫이에요. Moa Studio가 대신 풀어 드리는 일들입니다.</p>
+
+    <div style="display:flex; flex-direction:column; gap:18px; margin-top:36px;">
+
+      <div style="display:flex; gap:22px; align-items:flex-start; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:26px 28px;">
+        <div style="flex:none; width:64px; height:64px; border-radius:20px; background:#fbe6e0; display:flex; align-items:center; justify-content:center;">
+          <div style="position:relative; width:30px; height:22px; background:#e8634a; border-radius:9px;"><div style="position:absolute; bottom:-5px; left:7px; width:0; height:0; border-left:7px solid transparent; border-top:8px solid #e8634a;"></div></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 7px; font-size:21px; font-weight:800; color:#2c2723;">AI 챗봇 개발</h3>
+          <p style="margin:0; font-size:16px; line-height:1.65; color:#7d7268;">묻는 말에 24시간 척척 답하는 똑똑한 상담 직원을 만들어 드려요. 고객 문의도, 반복되는 질문도 알아서 처리합니다.</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:22px; align-items:flex-start; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:26px 28px;">
+        <div style="flex:none; width:64px; height:64px; border-radius:20px; background:#fbe6e0; display:flex; align-items:center; justify-content:center;">
+          <div style="width:24px; height:38px; border:3.5px solid #e8634a; border-radius:8px; display:flex; align-items:flex-end; justify-content:center; padding-bottom:3px; box-sizing:border-box;"><div style="width:9px; height:3px; border-radius:2px; background:#e8634a;"></div></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 7px; font-size:21px; font-weight:800; color:#2c2723;">모바일 앱 개발</h3>
+          <p style="margin:0; font-size:16px; line-height:1.65; color:#7d7268;">머릿속 아이디어를, 손안에서 바로 쓰는 앱으로 만들어 드려요. 복잡한 일도 화면 몇 번 누르면 끝나도록.</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:22px; align-items:flex-start; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:26px 28px;">
+        <div style="flex:none; width:64px; height:64px; border-radius:20px; background:#fbe6e0; display:flex; align-items:center; justify-content:center;">
+          <span style="font-size:34px; color:#e8634a; line-height:1;">↻</span>
+        </div>
+        <div>
+          <h3 style="margin:0 0 7px; font-size:21px; font-weight:800; color:#2c2723;">자동화 시스템</h3>
+          <p style="margin:0; font-size:16px; line-height:1.65; color:#7d7268;">매일 반복하던 귀찮은 일을, 사람 대신 알아서 처리하게 해요. 정해 둔 규칙대로 빠짐없이, 24시간.</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:22px; align-items:flex-start; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:26px 28px;">
+        <div style="flex:none; width:64px; height:64px; border-radius:20px; background:#fbe6e0; display:flex; align-items:flex-end; justify-content:center; gap:5px; padding:0 0 19px;">
+          <div style="width:7px; height:14px; border-radius:3px; background:#e8634a;"></div>
+          <div style="width:7px; height:24px; border-radius:3px; background:#e8634a;"></div>
+          <div style="width:7px; height:18px; border-radius:3px; background:#e8634a;"></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 7px; font-size:21px; font-weight:800; color:#2c2723;">데이터 조회·분석 서비스</h3>
+          <p style="margin:0; font-size:16px; line-height:1.65; color:#7d7268;">여기저기 흩어진 숫자들을, 한눈에 보이는 정보로 정리해 드려요. 무엇을 결정해야 할지 바로 보이도록.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 3 — PROJECTS (1/2) ===================== -->
+  <section class="sheet" data-screen-label="P3 만든 것들 ①" style="position:relative; width:210mm; min-height:297mm; background:#fdf7f2; box-shadow:0 12px 40px rgba(60,40,30,0.16); overflow:hidden; box-sizing:border-box; padding:26mm 22mm; display:flex; flex-direction:column;">
+    <p style="margin:0 0 14px; font-size:13px; font-weight:700; letter-spacing:0.2em; color:#e8634a; text-transform:uppercase;">Selected Work</p>
+    <h2 style="margin:0 0 6px; font-size:34px; line-height:1.32; font-weight:800; color:#2c2723; letter-spacing:-0.02em;">실제로 만든 것들</h2>
+    <p style="margin:0; font-size:16px; line-height:1.7; color:#7d7268;">"이런 문제를 이렇게 해결했어요" — 직접 만들어 운영 중인 서비스들입니다.</p>
+
+    <div style="display:flex; flex-direction:column; gap:18px; margin-top:30px;">
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">자동화 · 투자</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">Solis Labs <span style="font-size:14px; font-weight:600; color:#b6a99d;">주식 자동매매</span></h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">감정에 휘둘리지 않도록, 정해 둔 원칙대로 24시간 알아서 사고파는 주식 매매 시스템.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">모바일 앱 · 커뮤니티</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">세상의 모든 불만</h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">혼자 삭이던 소비자 불만을, 같은 경험을 가진 사람들과 모아 함께 목소리를 내는 커뮤니티 앱.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">자동화 · 투자</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">Crypto AutoTrader <span style="font-size:14px; font-weight:600; color:#b6a99d;">코인 자동매매</span></h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">잠든 사이에도 시장을 대신 지켜보고, 정해 둔 원칙에 맞을 때만 코인을 사고파는 매매 봇.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 4 — PROJECTS (2/2) ===================== -->
+  <section class="sheet" data-screen-label="P4 만든 것들 ②" style="position:relative; width:210mm; min-height:297mm; background:#fdf7f2; box-shadow:0 12px 40px rgba(60,40,30,0.16); overflow:hidden; box-sizing:border-box; padding:26mm 22mm; display:flex; flex-direction:column;">
+    <div style="display:flex; flex-direction:column; gap:18px; margin-top:4px;">
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">모바일 앱 · 데이터</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">골프 스코어 관리 앱</h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">스코어카드 사진 한 장이면, 기록부터 평균·핸디캡·시상까지 알아서 정리되는 골프 모임 앱.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">모바일 앱 · 생활</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">실손청구 도우미</h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">복잡한 실손보험에서 받을 수 있는 금액을 계산하고, 청구할 항목을 깔끔하게 정리해 주는 앱.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:22px; padding:20px;">
+        <div style="flex:none; width:150px; height:108px; border-radius:14px; border:1px solid #efe4db; background:repeating-linear-gradient(135deg,#f7ede6 0 9px,#fdf7f2 9px 18px); display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:11px; color:#bcaea3;">앱 화면</span></div>
+        <div style="flex:1; min-width:0;">
+          <span style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#e8634a; background:#fbe6e0; padding:4px 10px; border-radius:999px;">AI · 교육</span>
+          <h3 style="margin:9px 0 6px; font-size:20px; font-weight:800; color:#2c2723;">수학 코칭 프로그램</h3>
+          <p style="margin:0; font-size:14.5px; line-height:1.6; color:#7d7268;">내 아이 수준에 딱 맞는 문제와 풀이를, AI 선생님이 매일 만들어 주는 1:1 맞춤 학습 도구.</p>
+        </div>
+        <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:6px;">
+          <div style="width:82px; height:82px; border-radius:14px; border:2px dashed #e8b3a6; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:13px; font-weight:700; color:#e8634a;">QR</span></div>
+          <span style="font-size:10px; color:#b6a99d;">Live 링크</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:30px; background:#2c2723; border-radius:22px; padding:30px 32px; color:#fff; display:flex; align-items:center; gap:24px;">
+      <div style="flex:1;">
+        <h3 style="margin:0 0 8px; font-size:22px; font-weight:800;">다음 만들 것은, 당신의 아이디어입니다.</h3>
+        <p style="margin:0; font-size:15px; line-height:1.65; color:#cdbfb4;">위 서비스들처럼, 당신의 문제도 실제로 쓰는 서비스로 만들어 드립니다.</p>
+      </div>
+      <div style="flex:none; padding:12px 22px; background:#e8634a; border-radius:999px; font-size:15px; font-weight:700;">상담 →</div>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE 5 — PROCESS & CONTACT ===================== -->
+  <section class="sheet" data-screen-label="P5 문의" style="position:relative; width:210mm; min-height:297mm; background:#fdf7f2; box-shadow:0 12px 40px rgba(60,40,30,0.16); overflow:hidden; box-sizing:border-box; padding:26mm 22mm; display:flex; flex-direction:column;">
+    <div style="position:absolute; bottom:-110px; right:-90px; width:300px; height:300px; border-radius:50%; background:#fbe6e0;"></div>
+
+    <p style="margin:0 0 14px; font-size:13px; font-weight:700; letter-spacing:0.2em; color:#e8634a; text-transform:uppercase;">How It Works</p>
+    <h2 style="margin:0; font-size:34px; line-height:1.32; font-weight:800; color:#2c2723; letter-spacing:-0.02em;">이렇게 함께 만듭니다.</h2>
+    <p style="margin:14px 0 0; font-size:16px; line-height:1.7; color:#7d7268; max-width:440px;">처음 이야기 나누는 순간부터 완성된 서비스를 받는 순간까지, 네 단계로 진행됩니다.</p>
+
+    <div style="position:relative; display:flex; flex-direction:column; gap:14px; margin-top:34px;">
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:20px; padding:22px 26px;">
+        <div style="flex:none; width:46px; height:46px; border-radius:14px; background:#fbe6e0; color:#e8634a; font-weight:800; font-size:17px; display:flex; align-items:center; justify-content:center;">01</div>
+        <div><h3 style="margin:0 0 4px; font-size:18px; font-weight:800; color:#2c2723;">상담</h3><p style="margin:0; font-size:15px; color:#7d7268; line-height:1.6;">무엇을 만들고 싶은지 편하게 이야기 나눠요.</p></div>
+      </div>
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:20px; padding:22px 26px;">
+        <div style="flex:none; width:46px; height:46px; border-radius:14px; background:#fbe6e0; color:#e8634a; font-weight:800; font-size:17px; display:flex; align-items:center; justify-content:center;">02</div>
+        <div><h3 style="margin:0 0 4px; font-size:18px; font-weight:800; color:#2c2723;">기획</h3><p style="margin:0; font-size:15px; color:#7d7268; line-height:1.6;">필요한 기능과 화면을 함께 정리하고 방향을 맞춰요.</p></div>
+      </div>
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:20px; padding:22px 26px;">
+        <div style="flex:none; width:46px; height:46px; border-radius:14px; background:#fbe6e0; color:#e8634a; font-weight:800; font-size:17px; display:flex; align-items:center; justify-content:center;">03</div>
+        <div><h3 style="margin:0 0 4px; font-size:18px; font-weight:800; color:#2c2723;">개발</h3><p style="margin:0; font-size:15px; color:#7d7268; line-height:1.6;">직접 써 볼 수 있게, 빠르게 만들어 가며 보여 드려요.</p></div>
+      </div>
+      <div style="display:flex; gap:20px; align-items:center; background:#fff; border:1px solid #efe4db; border-radius:20px; padding:22px 26px;">
+        <div style="flex:none; width:46px; height:46px; border-radius:14px; background:#e8634a; color:#fff; font-weight:800; font-size:17px; display:flex; align-items:center; justify-content:center;">04</div>
+        <div><h3 style="margin:0 0 4px; font-size:18px; font-weight:800; color:#2c2723;">납품</h3><p style="margin:0; font-size:15px; color:#7d7268; line-height:1.6;">완성된 서비스를 전달하고, 이후 운영까지 챙겨요.</p></div>
+      </div>
+    </div>
+
+    <div style="position:relative; margin-top:auto; display:flex; gap:22px; align-items:center; background:#2c2723; border-radius:24px; padding:30px 34px; color:#fff;">
+      <div style="flex:1;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+          <div style="width:30px; height:30px; border-radius:10px; background:#e8634a; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:15px;">M</div>
+          <span style="font-size:14px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase;">Moa Studio</span>
+        </div>
+        <h3 style="margin:0 0 14px; font-size:23px; font-weight:800; line-height:1.4;">편하게 연락 주세요.</h3>
+        <div style="display:flex; flex-direction:column; gap:7px; font-size:15px; color:#e7dcd2;">
+          <div><span style="color:#b6a99d; display:inline-block; width:58px;">이메일</span> [이메일 주소]</div>
+          <div><span style="color:#b6a99d; display:inline-block; width:58px;">연락처</span> [전화 · 카카오톡 ID]</div>
+        </div>
+      </div>
+      <div style="flex:none; display:flex; flex-direction:column; align-items:center; gap:8px;">
+        <div style="width:104px; height:104px; border-radius:16px; border:2px dashed #6f655c; background:#fff; display:flex; align-items:center; justify-content:center;"><span style="font-family:ui-monospace,monospace; font-size:15px; font-weight:700; color:#e8634a;">QR</span></div>
+        <span style="font-size:11px; color:#b6a99d;">상담 바로가기</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+</x-dc>
+</body>
+</html>
